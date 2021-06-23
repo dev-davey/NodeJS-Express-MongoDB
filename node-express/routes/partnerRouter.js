@@ -7,8 +7,6 @@ partnerRouter.route('/')
     res.setHeader('Content-Type', 'text/plain');
     next();
 })
-
-
 .get((req, res) => {
     res.end('Will send all the partner to you');
 })
